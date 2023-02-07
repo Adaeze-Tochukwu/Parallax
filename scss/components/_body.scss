@@ -81,4 +81,13 @@
       background-color: transparent;
     }
   }
+
+  // the media below is mobile because parallex do not work for mobile. So it will be disabled for mobiles.
+  @media (max-width: 568px) {
+    &__pimg1,
+    &__pimg2,
+    &__pimg3 {
+      background-attachment: scroll;
+    }
+  }
 }
